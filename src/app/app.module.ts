@@ -7,11 +7,13 @@ import { FormsModule } from '@angular/forms';
 import { DataModule } from './module/data/data.module';
 import { DataServiceModule } from './service/data-service/data-service.module';
 import { StudentComponent } from './student/student.component';
+import { CustomerComponent } from './customer/customer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentComponent
+    StudentComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
